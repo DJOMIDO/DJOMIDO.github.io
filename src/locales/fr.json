@@ -21,7 +21,7 @@
   "about": {
     "title": "À propos",
     "paragraphs": [
-      "Je suis développeur full-stack basé à Grenoble, titulaire d'un double master en informatique et sciences sociales. De l'interface React/TypeScript au backend Python/FastAPI, j'aime construire des produits de bout en bout — et mon parcours en linguistique et TAL me donne un avantage particulier sur les projets liés au texte et à la langue.",
+      "Je suis développeur full-stack basé à Grenoble, titulaire d'un double master en informatique et en linguistique computationnelle. De l'interface React/TypeScript au backend Python/FastAPI, j'aime construire des produits de bout en bout — et mon parcours en TAL me donne un avantage particulier sur les projets liés au texte et à la langue.",
       "Je travaille aujourd'hui comme développeur web indépendant tout en explorant le développement d'agents IA — apprendre à faire appel à des outils et à orchestrer des workflows pour créer des applications intelligentes et vraiment utiles. J'ai hâte de relever de nouveaux défis et de grandir au sein d'une équipe."
     ],
     "stats": [
@@ -147,7 +147,7 @@
         "school": "Université Grenoble Alpes",
         "period": "sept. 2023 – sept. 2024",
         "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs-IDIVLQ8C/parcours-double-competence-informatique-et-sciences-sociales-IJLAENY0.html",
-        "description": "Mathématiques et informatique appliquées aux sciences humaines et sociales ; un parcours double compétence couvrant développement logiciel, analyse de données et méthodes des sciences sociales."
+        "description": "Mathématiques et informatique appliquées aux sciences humaines et sociales ; un parcours double compétence axé sur le développement logiciel et l'analyse de données."
       },
       {
         "degree": "Master Sciences du langage · Parcours Industries de la langue (TAL)",

@@ -21,7 +21,7 @@
   "about": {
     "title": "About me",
     "paragraphs": [
-      "I'm a full-stack developer based in Grenoble, France, holding a double master's degree in computer science and social sciences. From React/TypeScript interfaces to Python/FastAPI backends, I enjoy building products end to end — and my research background in linguistics and NLP gives me an extra edge with text and language data.",
+      "I'm a full-stack developer based in Grenoble, France, with a double master's in computer science and computational linguistics. From React/TypeScript interfaces to Python/FastAPI backends, I enjoy building products end to end — and my research background in linguistics and NLP gives me an extra edge with text and language data.",
       "I currently work as a freelance web developer while diving into AI agent development — learning how to make large language models call tools and orchestrate workflows to build genuinely useful, intelligent applications. I'm excited for new challenges and for growing together with a team."
     ],
     "stats": [
@@ -147,7 +147,7 @@
         "school": "Université Grenoble Alpes",
         "period": "Sep 2023 – Sep 2024",
         "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs-IDIVLQ8C/parcours-double-competence-informatique-et-sciences-sociales-IJLAENY0.html",
-        "description": "Mathematics and computer science applied to the humanities and social sciences; the double-competency track spans software development, data analysis and social science methods."
+        "description": "Mathematics and computer science applied to the humanities and social sciences; the double-competency track focuses on software development and data analysis."
       },
       {
         "degree": "MA in Linguistics · NLP track (Language Industries)",

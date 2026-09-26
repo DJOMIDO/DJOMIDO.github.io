@@ -21,7 +21,7 @@
   "about": {
     "title": "关于我",
     "paragraphs": [
-      "我是一名常驻法国格勒诺布尔的全栈开发者，拥有计算机科学与社会科学双硕士学位。从 React/TypeScript 界面到 Python/FastAPI 后端，我乐于端到端构建产品；语言学与 NLP 的研究背景，让我在处理文本与语言数据时多一分直觉。",
+      "我是一名常驻法国格勒诺布尔的全栈开发者，拥有计算机科学与计算语言学双硕士学位。从 React/TypeScript 界面到 Python/FastAPI 后端，我乐于端到端构建产品；语言学与 NLP 的研究背景，让我在处理文本与语言数据时多一分直觉。",
       "目前我以自由职业者身份承接 Web 开发项目，同时正在深入探索 AI Agent 开发——学习如何让大语言模型调用工具、编排工作流，构建真正实用的智能应用。我期待迎接新的挑战，与团队一起持续成长。"
     ],
     "stats": [
@@ -147,7 +147,7 @@
         "school": "格勒诺布尔大学（UGA）",
         "period": "2023.09 – 2024.09",
         "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs-IDIVLQ8C/parcours-double-competence-informatique-et-sciences-sociales-IJLAENY0.html",
-        "description": "数学与计算机在人文社会科学中的应用；双技能方向覆盖软件开发、数据分析与社会科学方法。"
+        "description": "数学与计算机在人文社会科学中的应用；双技能方向以软件开发与数据分析为主。"
       },
       {
         "degree": "语言科学硕士 · 自然语言处理方向",
