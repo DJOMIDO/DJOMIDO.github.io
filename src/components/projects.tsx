@@ -8,7 +8,7 @@ interface Project {
   name: string
   description: string
   tags: string[]
-  demoUrl: string
+  demoUrl?: string
   repoUrl: string
 }
 
@@ -44,13 +44,15 @@ export function Projects() {
                 </ul>
               </div>
               <div className="flex gap-6 md:flex-col md:items-end md:gap-3">
-                <a
-                  href={project.demoUrl}
-                  className="inline-flex items-center gap-1 font-mono text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-primary"
-                >
-                  {t('projects.demoLabel')}
-                  <ArrowUpRight />
-                </a>
+                {project.demoUrl && (
+                  <a
+                    href={project.demoUrl}
+                    className="inline-flex items-center gap-1 font-mono text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-primary"
+                  >
+                    {t('projects.demoLabel')}
+                    <ArrowUpRight />
+                  </a>
+                )}
                 <a
                   href={project.repoUrl}
                   className="inline-flex items-center gap-1 font-mono text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-primary"

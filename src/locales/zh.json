@@ -22,46 +22,59 @@
     "title": "关于我",
     "paragraphs": [
       "我是一名常驻法国格勒诺布尔的全栈开发者，拥有计算机科学与社会科学双硕士学位。从 React/TypeScript 界面到 Python/FastAPI 后端，我乐于端到端构建产品；语言学与 NLP 的研究背景，让我在处理文本与语言数据时多一分直觉。",
-      "目前我以自由职业者（auto-entrepreneur）身份承接 Web 开发项目，同时正在深入探索 AI Agent 开发——学习如何让大语言模型调用工具、编排工作流，构建真正实用的智能应用。我期待迎接新的挑战，与团队一起持续成长。"
+      "目前我以自由职业者身份承接 Web 开发项目，同时正在深入探索 AI Agent 开发——学习如何让大语言模型调用工具、编排工作流，构建真正实用的智能应用。我期待迎接新的挑战，与团队一起持续成长。"
     ],
     "stats": [
-      { "value": "3+", "label": "年开发经验" },
-      { "value": "3", "label": "工作语言" },
-      { "value": "2", "label": "硕士学位" }
+      { "value": "1+", "label": "年工作经验" },
+      { "value": "3", "label": "种工作语言" }
     ]
   },
   "skills": {
     "title": "技术栈",
     "groups": [
-      { "name": "前端", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
-      { "name": "后端", "items": ["Python", "FastAPI", "Node.js", "PostgreSQL"] },
-      { "name": "工具与实践", "items": ["Git", "Docker", "CI/CD", "Agile/Kanban"] },
-      { "name": "探索中", "items": ["AI Agent", "LLM 应用", "工具调用", "工作流编排"] }
+      { "name": "前端", "items": ["React", "TypeScript", "JavaScript", "Vite", "Vue.js", "Tailwind CSS", "shadcn/ui"] },
+      { "name": "后端", "items": ["Python", "FastAPI", "Django", "Node.js", "Express.js", "REST API", "WebSockets", "Java"] },
+      { "name": "数据库", "items": ["PostgreSQL", "MySQL", "MongoDB", "SQLAlchemy", "Alembic"] },
+      { "name": "安全与架构", "items": ["JWT", "OAuth2", "RBAC", "异步 API"] },
+      { "name": "AI / NLP", "items": ["Hugging Face Transformers", "BERT / DistilBERT 微调", "NER", "spaCy"] },
+      { "name": "探索中", "items": ["AI Agent", "Ollama", "LM Studio"] },
+      { "name": "工具与实践", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] }
     ]
   },
   "projects": {
     "title": "精选项目",
     "items": [
       {
-        "name": "ShopStack",
-        "description": "全栈电商演示：商品浏览、购物车、订单管理与 JWT 鉴权，前后端分离部署。",
-        "tags": ["React", "Node.js", "PostgreSQL", "JWT"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "HeurAIDEAS",
+        "description": "面向人机界面（HMI）启发式评估的协作式研究平台：项目管理、WebSocket 实时同步评分与团队级数据隔离，从架构设计到部署运维的端到端交付。",
+        "tags": ["React", "TypeScript", "FastAPI", "WebSockets", "Docker"],
+        "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
-        "name": "TaskFlow",
-        "description": "支持拖拽看板的任务管理应用：创建项目、分配任务、设置截止日期并追踪进度。",
-        "tags": ["React", "TypeScript", "Tailwind CSS", "dnd-kit"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "Travel Tracker",
+        "description": "旅行记录应用：登录后记录航班与火车行程，在交互地图上可视化航线，通过仪表盘图表回顾旅程；支持 CSV 批量导入与暗色模式。",
+        "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],
+        "demoUrl": "https://nonameapp.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/noname-app"
       },
       {
-        "name": "DataBoard",
-        "description": "将公开 API 数据可视化的仪表盘，支持多图表切换、数据缓存与暗色模式。",
-        "tags": ["React", "Recharts", "REST API", "Vite"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "NLP Jobs",
+        "description": "专注 NLP 领域的职位搜索平台：分页职位列表、多条件筛选（国家、城市、关键词、急招）与职位详情页，前端部署于 Netlify，API 基于 Netlify Functions。",
+        "tags": ["React", "Express.js", "MongoDB", "Netlify", "Chakra UI"],
+        "demoUrl": "https://nlpjobs.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/nlpjobs"
+      },
+      {
+        "name": "ViteMétéo",
+        "description": "轻量天气预报应用：搜索城市即可查看实时天气、日出日落、可横向滚动的逐小时预报与 3 天预报，数据来自 WeatherAPI。",
+        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
+        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
+      },
+      {
+        "name": "CartoStages IDéaL",
+        "description": "为格勒诺布尔大学语言工程硕士（IdL）打造的实习职位平台：汇聚各渠道实习信息，在交互地图上展示，并提供搜索、发布与管理后台，含 Python 爬虫采集模块。",
+        "tags": ["PHP", "MySQL", "Python", "Docker"],
+        "repoUrl": "https://github.com/DJOMIDO/cartostagesideal"
       }
     ],
     "demoLabel": "在线演示",
@@ -74,7 +87,7 @@
         "role": "自由职业全栈开发者",
         "company": "Auto-entrepreneur · 法国",
         "period": "2025.07 – 至今",
-        "description": "以 auto-entrepreneur 身份独立承接 Web 开发项目，负责从需求沟通、架构设计到部署交付的全流程。",
+        "description": "独立承接 Web 开发项目，负责从需求沟通、架构设计到部署交付的全流程。",
         "tags": []
       },
       {
@@ -106,7 +119,7 @@
           "集成 API 动态展示用户数据，包括个人资料与最近活动。",
           "在 Agile 环境中协作：冲刺计划、每日站会、Git 工作流，并与产品团队紧密配合。"
         ],
-        "tags": ["React", "TypeScript", "Vue.js", "REST API"]
+        "tags": ["React", "TypeScript", "Vue.js", "Python", "REST API"]
       },
       {
         "role": "NLP 研究实习生",

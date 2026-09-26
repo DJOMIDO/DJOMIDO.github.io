@@ -22,46 +22,59 @@
     "title": "À propos",
     "paragraphs": [
       "Je suis développeur full-stack basé à Grenoble, titulaire d'un double master en informatique et sciences sociales. De l'interface React/TypeScript au backend Python/FastAPI, j'aime construire des produits de bout en bout — et mon parcours en linguistique et TAL me donne un avantage particulier sur les projets liés au texte et à la langue.",
-      "Je travaille aujourd'hui comme développeur web indépendant (auto-entrepreneur) tout en explorant le développement d'agents IA — apprendre à faire appel à des outils et à orchestrer des workflows pour créer des applications intelligentes et vraiment utiles. J'ai hâte de relever de nouveaux défis et de grandir au sein d'une équipe."
+      "Je travaille aujourd'hui comme développeur web indépendant tout en explorant le développement d'agents IA — apprendre à faire appel à des outils et à orchestrer des workflows pour créer des applications intelligentes et vraiment utiles. J'ai hâte de relever de nouveaux défis et de grandir au sein d'une équipe."
     ],
     "stats": [
-      { "value": "3+", "label": "Années d'expérience" },
-      { "value": "3", "label": "Langues de travail" },
-      { "value": "2", "label": "Masters" }
+      { "value": "1+", "label": "an d'expérience" },
+      { "value": "3", "label": "langues de travail" }
     ]
   },
   "skills": {
     "title": "Compétences",
     "groups": [
-      { "name": "Front-end", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
-      { "name": "Back-end", "items": ["Python", "FastAPI", "Node.js", "PostgreSQL"] },
-      { "name": "Outils & pratiques", "items": ["Git", "Docker", "CI/CD", "Agile/Kanban"] },
-      { "name": "En exploration", "items": ["Agents IA", "LLM", "Appel d'outils", "Orchestration de workflows"] }
+      { "name": "Front-end", "items": ["React", "TypeScript", "JavaScript", "Vite", "Vue.js", "Tailwind CSS", "shadcn/ui"] },
+      { "name": "Back-end", "items": ["Python", "FastAPI", "Django", "Node.js", "Express.js", "API REST", "WebSockets", "Java"] },
+      { "name": "Bases de données", "items": ["PostgreSQL", "MySQL", "MongoDB", "SQLAlchemy", "Alembic"] },
+      { "name": "Sécurité & architecture", "items": ["JWT", "OAuth2", "RBAC", "API asynchrones"] },
+      { "name": "IA / NLP", "items": ["Hugging Face Transformers", "Fine-tuning BERT / DistilBERT", "NER", "spaCy"] },
+      { "name": "En exploration", "items": ["Agents IA", "Ollama", "LM Studio"] },
+      { "name": "Outils & pratiques", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] }
     ]
   },
   "projects": {
     "title": "Projets sélectionnés",
     "items": [
       {
-        "name": "ShopStack",
-        "description": "Démo e-commerce full-stack : catalogue, panier, gestion des commandes et authentification JWT, front et back déployés séparément.",
-        "tags": ["React", "Node.js", "PostgreSQL", "JWT"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "HeurAIDEAS",
+        "description": "Plateforme collaborative de recherche pour l'évaluation heuristique des interfaces homme-machine (HMI) : gestion de projets, notation synchronisée en temps réel par WebSocket et cloisonnement des données par équipe — conçue, développée et déployée de A à Z.",
+        "tags": ["React", "TypeScript", "FastAPI", "WebSockets", "Docker"],
+        "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
-        "name": "TaskFlow",
-        "description": "Application de gestion de tâches avec kanban en glisser-déposer : projets, assignations, échéances et suivi d'avancement.",
-        "tags": ["React", "TypeScript", "Tailwind CSS", "dnd-kit"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "Travel Tracker",
+        "description": "Journal de voyage numérique : enregistrez vos trajets en avion et en train, visualisez les routes sur une carte interactive et consultez des statistiques avec graphiques — avec import CSV et mode sombre.",
+        "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],
+        "demoUrl": "https://nonameapp.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/noname-app"
       },
       {
-        "name": "DataBoard",
-        "description": "Tableau de bord qui visualise les données d'API publiques : plusieurs graphiques interchangeables, cache et mode sombre.",
-        "tags": ["React", "Recharts", "REST API", "Vite"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "NLP Jobs",
+        "description": "Site d'emploi dédié aux postes en TAL : annonces paginées, filtres multi-critères (pays, ville, mots-clés, urgent) et fiches détaillées, avec le frontend hébergé sur Netlify et les API sur Netlify Functions.",
+        "tags": ["React", "Express.js", "MongoDB", "Netlify", "Chakra UI"],
+        "demoUrl": "https://nlpjobs.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/nlpjobs"
+      },
+      {
+        "name": "ViteMétéo",
+        "description": "Application météo légère : recherchez une ville pour afficher les conditions actuelles, le lever/coucher du soleil, les prévisions heure par heure et à 3 jours, via l'API WeatherAPI.",
+        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
+        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
+      },
+      {
+        "name": "CartoStages IDéaL",
+        "description": "Plateforme d'offres de stages réalisée pour le Master IdL (Ingénierie des Langues) de l'UGA : regroupement des offres de plusieurs sources, affichage sur une carte interactive, recherche, publication et back-office — avec un module de scraping en Python.",
+        "tags": ["PHP", "MySQL", "Python", "Docker"],
+        "repoUrl": "https://github.com/DJOMIDO/cartostagesideal"
       }
     ],
     "demoLabel": "Démo en ligne",
@@ -74,7 +87,7 @@
         "role": "Développeur full-stack indépendant",
         "company": "Auto-entrepreneur",
         "period": "juil. 2025 – aujourd'hui",
-        "description": "Développement web en indépendant (auto-entrepreneur), de la prise de besoin et de l'architecture jusqu'au déploiement et à la livraison.",
+        "description": "Développement web en indépendant, de la prise de besoin et de l'architecture jusqu'au déploiement et à la livraison.",
         "tags": []
       },
       {
@@ -106,7 +119,7 @@
           "Intégré des APIs afin d'afficher dynamiquement les données utilisateur, notamment les profils et activités récentes.",
           "Travaillé en environnement Agile, avec sprints, daily meetings, Git et collaboration avec l'équipe produit."
         ],
-        "tags": ["React", "TypeScript", "Vue.js", "REST API"]
+        "tags": ["React", "TypeScript", "Vue.js", "Python", "REST API"]
       },
       {
         "role": "Stagiaire en recherche NLP",

@@ -22,46 +22,59 @@
     "title": "About me",
     "paragraphs": [
       "I'm a full-stack developer based in Grenoble, France, holding a double master's degree in computer science and social sciences. From React/TypeScript interfaces to Python/FastAPI backends, I enjoy building products end to end — and my research background in linguistics and NLP gives me an extra edge with text and language data.",
-      "I currently work as a freelance web developer (auto-entrepreneur) while diving into AI agent development — learning how to make large language models call tools and orchestrate workflows to build genuinely useful, intelligent applications. I'm excited for new challenges and for growing together with a team."
+      "I currently work as a freelance web developer while diving into AI agent development — learning how to make large language models call tools and orchestrate workflows to build genuinely useful, intelligent applications. I'm excited for new challenges and for growing together with a team."
     ],
     "stats": [
-      { "value": "3+", "label": "Years of experience" },
-      { "value": "3", "label": "Working languages" },
-      { "value": "2", "label": "Master's degrees" }
+      { "value": "1+", "label": "Years of experience" },
+      { "value": "3", "label": "Working languages" }
     ]
   },
   "skills": {
     "title": "Tech stack",
     "groups": [
-      { "name": "Frontend", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
-      { "name": "Backend", "items": ["Python", "FastAPI", "Node.js", "PostgreSQL"] },
-      { "name": "Tools & practices", "items": ["Git", "Docker", "CI/CD", "Agile/Kanban"] },
-      { "name": "Exploring", "items": ["AI Agents", "LLM Apps", "Tool Use", "Workflow Orchestration"] }
+      { "name": "Frontend", "items": ["React", "TypeScript", "JavaScript", "Vite", "Vue.js", "Tailwind CSS", "shadcn/ui"] },
+      { "name": "Backend", "items": ["Python", "FastAPI", "Django", "Node.js", "Express.js", "REST API", "WebSockets", "Java"] },
+      { "name": "Databases", "items": ["PostgreSQL", "MySQL", "MongoDB", "SQLAlchemy", "Alembic"] },
+      { "name": "Security & architecture", "items": ["JWT", "OAuth2", "RBAC", "Async APIs"] },
+      { "name": "AI / NLP", "items": ["Hugging Face Transformers", "BERT / DistilBERT fine-tuning", "NER", "spaCy"] },
+      { "name": "Exploring", "items": ["AI Agents", "Ollama", "LM Studio"] },
+      { "name": "Tools & practices", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] }
     ]
   },
   "projects": {
     "title": "Selected projects",
     "items": [
       {
-        "name": "ShopStack",
-        "description": "A full-stack e-commerce demo: product catalog, shopping cart, order management and JWT auth, with the frontend and backend deployed separately.",
-        "tags": ["React", "Node.js", "PostgreSQL", "JWT"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "HeurAIDEAS",
+        "description": "A collaborative research platform for the heuristic evaluation of human-machine interfaces (HMI): project management, WebSocket-synchronized scoring and team-level data isolation — architected, built and deployed end to end.",
+        "tags": ["React", "TypeScript", "FastAPI", "WebSockets", "Docker"],
+        "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
-        "name": "TaskFlow",
-        "description": "A task management app with a drag-and-drop kanban board: create projects, assign tasks, set due dates and track progress.",
-        "tags": ["React", "TypeScript", "Tailwind CSS", "dnd-kit"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "Travel Tracker",
+        "description": "A travel journaling app: log flights and train journeys, visualize routes on an interactive map, and review trips through a stats dashboard with charts — featuring CSV import and dark mode.",
+        "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],
+        "demoUrl": "https://nonameapp.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/noname-app"
       },
       {
-        "name": "DataBoard",
-        "description": "A dashboard that visualizes public API data, with switchable charts, response caching and a dark mode.",
-        "tags": ["React", "Recharts", "REST API", "Vite"],
-        "demoUrl": "#",
-        "repoUrl": "#"
+        "name": "NLP Jobs",
+        "description": "A job board dedicated to NLP positions: paginated listings, multi-criteria filters (country, city, keywords, urgent) and detailed job pages, with the frontend on Netlify and the APIs on Netlify Functions.",
+        "tags": ["React", "Express.js", "MongoDB", "Netlify", "Chakra UI"],
+        "demoUrl": "https://nlpjobs.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/nlpjobs"
+      },
+      {
+        "name": "ViteMétéo",
+        "description": "A lightweight weather app: search a city to see current conditions, sunrise and sunset, a scrollable hourly forecast and a 3-day outlook, powered by the WeatherAPI.",
+        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
+        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
+      },
+      {
+        "name": "CartoStages IDéaL",
+        "description": "An internship-offers platform built for the Master IdL (Language Engineering) at Université Grenoble Alpes: it aggregates offers from multiple sources, displays them on an interactive map, and provides search, publishing and admin features — including a Python scraping module.",
+        "tags": ["PHP", "MySQL", "Python", "Docker"],
+        "repoUrl": "https://github.com/DJOMIDO/cartostagesideal"
       }
     ],
     "demoLabel": "Live demo",
@@ -74,7 +87,7 @@
         "role": "Freelance Full-Stack Developer",
         "company": "Auto-entrepreneur · France",
         "period": "Jul 2025 – Present",
-        "description": "Working as an independent web developer (auto-entrepreneur), owning every project end to end — from requirements and architecture to deployment and delivery.",
+        "description": "Working as an independent web developer, owning every project end to end — from requirements and architecture to deployment and delivery.",
         "tags": []
       },
       {
@@ -106,7 +119,7 @@
           "Integrated APIs to dynamically display user data, including profiles and recent activity.",
           "Worked in an Agile environment — sprints, daily standups, Git — collaborating closely with the product team."
         ],
-        "tags": ["React", "TypeScript", "Vue.js", "REST API"]
+        "tags": ["React", "TypeScript", "Vue.js", "Python", "REST API"]
       },
       {
         "role": "NLP Research Intern",
