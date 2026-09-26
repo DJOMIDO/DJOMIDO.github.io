@@ -15,7 +15,7 @@ export function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-5xl px-6 py-32">
       <Reveal className="flex flex-col items-center gap-8 text-center">
-        <p className="font-mono text-sm text-primary">05.</p>
+        <p className="font-mono text-sm text-primary">06.</p>
         <h2 className="font-heading text-4xl tracking-tight md:text-6xl">
           {t('contact.title')}
         </h2>
