@@ -37,8 +37,9 @@
       { "name": "数据库", "items": ["PostgreSQL", "MySQL", "MongoDB", "SQLAlchemy", "Alembic"] },
       { "name": "安全与架构", "items": ["JWT", "OAuth2", "RBAC", "异步 API"] },
       { "name": "AI / NLP", "items": ["Hugging Face Transformers", "BERT / DistilBERT 微调", "NER", "spaCy"] },
-      { "name": "探索中", "items": ["AI Agent", "Ollama", "LM Studio"] },
-      { "name": "工具与实践", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] }
+      { "name": "探索中", "items": ["AI Agent 开发", "LangChain", "LangGraph", "MCP", "RAG", "Skills"] },
+      { "name": "工具与实践", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] },
+      { "name": "语言", "items": ["中文（母语）", "法语（流利）", "英语（专业）", "西班牙语（入门）"] }
     ]
   },
   "projects": {

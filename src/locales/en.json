@@ -37,8 +37,9 @@
       { "name": "Databases", "items": ["PostgreSQL", "MySQL", "MongoDB", "SQLAlchemy", "Alembic"] },
       { "name": "Security & architecture", "items": ["JWT", "OAuth2", "RBAC", "Async APIs"] },
       { "name": "AI / NLP", "items": ["Hugging Face Transformers", "BERT / DistilBERT fine-tuning", "NER", "spaCy"] },
-      { "name": "Exploring", "items": ["AI Agents", "Ollama", "LM Studio"] },
-      { "name": "Tools & practices", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] }
+      { "name": "Exploring", "items": ["AI Agent Development", "LangChain", "LangGraph", "MCP", "RAG", "Skills"] },
+      { "name": "Tools & practices", "items": ["Docker", "Git", "Jira", "Vercel", "Netlify", "Supabase", "Agile", "Kanban", "Scrum"] },
+      { "name": "Languages", "items": ["English (Professional)", "French (Fluent)", "Chinese (Native)", "Spanish (Beginner)"] }
     ]
   },
   "projects": {
