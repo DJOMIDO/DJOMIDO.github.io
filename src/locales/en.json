@@ -11,7 +11,7 @@
     "kicker": "Hi, I'm",
     "name": "Xiao Ma",
     "role": "Full-Stack Developer",
-    "tagline": "I love turning ideas into products people can actually use — with simple, reliable code, end to end.",
+    "tagline": "Web development gives me creative energy and drive — I enjoy building things from interface to API.",
     "ctaProjects": "View projects",
     "ctaContact": "Get in touch",
     "availability": "Open to new challenges & growth",
@@ -48,6 +48,7 @@
         "name": "HeurAIDEAS",
         "description": "A collaborative research platform for the heuristic evaluation of human-machine interfaces (HMI): project management, WebSocket-synchronized scoring and team-level data isolation — architected, built and deployed end to end.",
         "tags": ["React", "TypeScript", "FastAPI", "WebSockets", "Docker"],
+        "demoUrl": "https://heuraideas-proto-v1.netlify.app",
         "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
@@ -68,6 +69,7 @@
         "name": "ViteMétéo",
         "description": "A lightweight weather app: search a city to see current conditions, sunrise and sunset, a scrollable hourly forecast and a 3-day outlook, powered by the WeatherAPI.",
         "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
+        "demoUrl": "https://vitemeteo.netlify.app",
         "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
       },
       {

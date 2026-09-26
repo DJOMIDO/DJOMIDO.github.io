@@ -11,7 +11,7 @@
     "kicker": "你好，我是",
     "name": "Xiao Ma",
     "role": "全栈开发工程师",
-    "tagline": "我热衷于把想法变成真正可用的产品——从界面到 API，用简洁、可靠的代码端到端实现。",
+    "tagline": "Web 开发给了我创造的活力与动力——从界面到 API，我享受把东西一点一点做出来的过程。",
     "ctaProjects": "查看项目",
     "ctaContact": "联系我",
     "availability": "寻求新的挑战与成长机会",
@@ -48,6 +48,7 @@
         "name": "HeurAIDEAS",
         "description": "面向人机界面（HMI）启发式评估的协作式研究平台：项目管理、WebSocket 实时同步评分与团队级数据隔离，从架构设计到部署运维的端到端交付。",
         "tags": ["React", "TypeScript", "FastAPI", "WebSockets", "Docker"],
+        "demoUrl": "https://heuraideas-proto-v1.netlify.app",
         "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
@@ -68,6 +69,7 @@
         "name": "ViteMétéo",
         "description": "轻量天气预报应用：搜索城市即可查看实时天气、日出日落、可横向滚动的逐小时预报与 3 天预报，数据来自 WeatherAPI。",
         "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
+        "demoUrl": "https://vitemeteo.netlify.app",
         "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
       },
       {
