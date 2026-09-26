@@ -4,37 +4,39 @@
     "skills": "Compétences",
     "projects": "Projets",
     "experience": "Parcours",
+    "education": "Formation",
     "contact": "Contact"
   },
   "hero": {
     "kicker": "Bonjour, je suis",
     "name": "Xiao Ma",
-    "role": "Développeur full-stack junior",
+    "role": "Développeur full-stack",
     "tagline": "J'aime transformer les idées en produits vraiment utilisables — avec du code simple et fiable, de l'interface à l'API.",
     "ctaProjects": "Voir mes projets",
     "ctaContact": "Me contacter",
-    "availability": "Ouvert aux stages et aux postes junior",
-    "location": "Chine · Ouvert au télétravail",
+    "availability": "Ouvert aux nouveaux défis et opportunités",
+    "location": "Grenoble, France · Ouvert au télétravail",
     "scroll": "Faire défiler"
   },
   "about": {
     "title": "À propos",
     "paragraphs": [
-      "Je suis développeur full-stack junior, spécialisé dans l'écosystème React et dans le backend Node.js. De l'interface pixel-perfect à l'API bien conçue, j'aime participer à chaque étape de la construction d'un produit.",
-      "Je cherche d'abord à comprendre le problème avant d'écrire du code, avec un souci constant de maintenabilité et de communication claire. Je recherche une équipe où je pourrai progresser et prendre de vraies responsabilités."
+      "Je suis développeur full-stack basé à Grenoble, titulaire d'un double master en informatique et sciences sociales. De l'interface React/TypeScript au backend Python/FastAPI, j'aime construire des produits de bout en bout — et mon parcours en linguistique et TAL me donne un avantage particulier sur les projets liés au texte et à la langue.",
+      "Je travaille aujourd'hui comme développeur web indépendant (auto-entrepreneur) tout en explorant le développement d'agents IA — apprendre à faire appel à des outils et à orchestrer des workflows pour créer des applications intelligentes et vraiment utiles. J'ai hâte de relever de nouveaux défis et de grandir au sein d'une équipe."
     ],
     "stats": [
-      { "value": "3+", "label": "Projets personnels" },
+      { "value": "3+", "label": "Années d'expérience" },
       { "value": "3", "label": "Langues de travail" },
-      { "value": "100 %", "label": "De passion" }
+      { "value": "2", "label": "Masters" }
     ]
   },
   "skills": {
     "title": "Compétences",
     "groups": [
       { "name": "Front-end", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
-      { "name": "Back-end", "items": ["Node.js", "Express", "PostgreSQL", "REST API"] },
-      { "name": "Outils & pratiques", "items": ["Git", "Docker", "Figma", "Vitest"] }
+      { "name": "Back-end", "items": ["Python", "FastAPI", "Node.js", "PostgreSQL"] },
+      { "name": "Outils & pratiques", "items": ["Git", "Docker", "CI/CD", "Agile/Kanban"] },
+      { "name": "En exploration", "items": ["Agents IA", "LLM", "Appel d'outils", "Orchestration de workflows"] }
     ]
   },
   "projects": {
@@ -69,30 +71,93 @@
     "title": "Parcours",
     "items": [
       {
-        "role": "Stagiaire développeur full-stack",
-        "company": "Entreprise tech",
-        "period": "juin 2025 – sept. 2025",
-        "description": "Développement d'un back-office interne : pages frontend, intégration d'API et conception de plusieurs routes backend.",
-        "tags": ["React", "Node.js", "MySQL"]
+        "role": "Développeur full-stack indépendant",
+        "company": "Auto-entrepreneur",
+        "period": "juil. 2025 – aujourd'hui",
+        "description": "Développement web en indépendant (auto-entrepreneur), de la prise de besoin et de l'architecture jusqu'au déploiement et à la livraison.",
+        "tags": []
       },
       {
-        "role": "Développeur freelance (à temps partiel)",
-        "company": "Indépendant",
-        "period": "mars 2024 – aujourd'hui",
-        "description": "Sites vitrines et système de réservation en ligne pour des PME locales, de la prise de besoin jusqu'au déploiement.",
-        "tags": ["React", "Vercel", "PostgreSQL"]
+        "role": "Développeur full-stack",
+        "company": "Grenoble INP · Laboratoire G-SCOP",
+        "period": "févr. 2026 – juil. 2026",
+        "url": "https://g-scop.grenoble-inp.fr",
+        "description": "Conception et développement de A à Z d'HeurAIDEAS, application web collaborative d'évaluation heuristique des interfaces homme-machine (HMI) — de l'architecture au déploiement.",
+        "highlights": [
+          "Conçu et développé de A à Z HeurAIDEAS, une application web collaborative dédiée à l'évaluation heuristique des interfaces homme-machine (HMI), avec un backend asynchrone Python/FastAPI et un frontend React/TypeScript/Vite.",
+          "Développé des APIs REST avec SQLAlchemy Async/Alembic et mis en place des WebSockets pour la synchronisation temps réel et la gestion de présence.",
+          "Implémenté l'authentification JWT/OAuth2 et un contrôle d'accès RBAC afin de garantir le cloisonnement des données entre utilisateurs et équipes.",
+          "Intégré le stockage de fichiers S3 et conteneurisé l'application avec Docker, avec migration d'un hébergement Cloud vers les serveurs internes. Mis en place le déploiement continu (CD) depuis Git sur Render et Netlify.",
+          "Organisé le développement en Agile/Kanban : découpage des tâches, priorisation, suivi d'avancement et gestion du projet."
+        ],
+        "links": [
+          { "label": "HeurAIDEAS · GitHub", "url": "https://github.com/DJOMIDO/heurAideas-proto-v1" }
+        ],
+        "tags": ["React", "TypeScript", "FastAPI", "Docker", "WebSockets"]
+      },
+      {
+        "role": "Développeur web",
+        "company": "HAIKU · Startup LegalTech",
+        "period": "juin 2024 – sept. 2024",
+        "url": "https://www.haiku.fr",
+        "highlights": [
+          "Contribué à la migration progressive d'une application SaaS de Vue.js vers React avec TypeScript.",
+          "Développé des composants frontend modulaires : dashboard, authentification et gestion des données utilisateur.",
+          "Intégré des APIs afin d'afficher dynamiquement les données utilisateur, notamment les profils et activités récentes.",
+          "Travaillé en environnement Agile, avec sprints, daily meetings, Git et collaboration avec l'équipe produit."
+        ],
+        "tags": ["React", "TypeScript", "Vue.js", "REST API"]
+      },
+      {
+        "role": "Stagiaire en recherche NLP",
+        "company": "Laboratoire LIDILEM · UGA",
+        "period": "mars 2023 – août 2023",
+        "url": "https://lidilem.univ-grenoble-alpes.fr/laboratoire",
+        "highlights": [
+          "Fine-tuné des modèles BERT et DistilBERT sur un corpus géolinguistique français.",
+          "Prétraité, annoté et structuré des données textuelles pour l'entraînement de modèles de NER.",
+          "Entraîné et évalué des modèles de reconnaissance d'entités nommées (NER) à l'aide de Transformers.",
+          "Comparé les performances de BERT, DistilBERT et spaCy sur des tâches de NER."
+        ],
+        "tags": ["Python", "NLP", "Transformers", "spaCy"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "degree": "Master MIASHS · Parcours double compétence informatique et sciences sociales",
+        "school": "Université Grenoble Alpes",
+        "period": "sept. 2023 – sept. 2024",
+        "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs-IDIVLQ8C/parcours-double-competence-informatique-et-sciences-sociales-IJLAENY0.html",
+        "description": "Mathématiques et informatique appliquées aux sciences humaines et sociales ; un parcours double compétence couvrant développement logiciel, analyse de données et méthodes des sciences sociales."
+      },
+      {
+        "degree": "Master Sciences du langage · Parcours Industries de la langue (TAL)",
+        "school": "Université Grenoble Alpes",
+        "period": "sept. 2021 – sept. 2023",
+        "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-sciences-du-langage-IBC7OSQ4/parcours-industries-de-la-langue-IBC7YS7U.html",
+        "description": "Traitement automatique des langues : linguistique computationnelle, fouille de textes et apprentissage automatique appliqués aux données langagières."
+      },
+      {
+        "degree": "Licence Sciences du langage",
+        "school": "Université Grenoble Alpes",
+        "period": "sept. 2020 – juin 2021",
+        "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/licence-XA/licence-sciences-du-langage-IBBXV3CB.html",
+        "description": "Fondamentaux de la linguistique : phonétique, syntaxe, sémantique et sociolinguistique."
       }
     ]
   },
   "contact": {
     "title": "Me contacter",
-    "lead": "Un stage, une collaboration ou simplement envie de discuter tech ? Écrivez-moi.",
-    "email": "hello@example.com",
+    "lead": "Une opportunité, un projet à discuter, ou simplement envie de me saluer ? Écrivez-moi.",
+    "email": "ma.xiao@myyahoo.com",
     "emailLabel": "E-mail",
     "linksLabel": "Autres canaux",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/your-username" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username" },
+      { "label": "GitHub", "url": "https://github.com/DJOMIDO" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/xiao-ma-dmx" },
       { "label": "CV", "url": "#" }
     ]
   },

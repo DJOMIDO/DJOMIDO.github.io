@@ -4,37 +4,39 @@
     "skills": "技能",
     "projects": "项目",
     "experience": "经历",
+    "education": "教育",
     "contact": "联系"
   },
   "hero": {
     "kicker": "你好，我是",
     "name": "Xiao Ma",
-    "role": "初级全栈开发工程师",
+    "role": "全栈开发工程师",
     "tagline": "我热衷于把想法变成真正可用的产品——从界面到 API，用简洁、可靠的代码端到端实现。",
     "ctaProjects": "查看项目",
     "ctaContact": "联系我",
-    "availability": "正在寻找实习与初级岗位机会",
-    "location": "中国 · 可远程协作",
+    "availability": "寻求新的挑战与成长机会",
+    "location": "法国格勒诺布尔 · 可远程协作",
     "scroll": "向下滚动"
   },
   "about": {
     "title": "关于我",
     "paragraphs": [
-      "我是一名初级全栈开发者，主攻 React 生态与 Node.js 后端。从像素级还原的界面到设计良好的 API，我喜欢参与产品构建的每一个环节。",
-      "我习惯先理解问题再动手写代码，重视可维护性与清晰的沟通。目前正在寻找能让我持续成长、承担真实责任的团队机会。"
+      "我是一名常驻法国格勒诺布尔的全栈开发者，拥有计算机科学与社会科学双硕士学位。从 React/TypeScript 界面到 Python/FastAPI 后端，我乐于端到端构建产品；语言学与 NLP 的研究背景，让我在处理文本与语言数据时多一分直觉。",
+      "目前我以自由职业者（auto-entrepreneur）身份承接 Web 开发项目，同时正在深入探索 AI Agent 开发——学习如何让大语言模型调用工具、编排工作流，构建真正实用的智能应用。我期待迎接新的挑战，与团队一起持续成长。"
     ],
     "stats": [
-      { "value": "3+", "label": "个人项目" },
+      { "value": "3+", "label": "年开发经验" },
       { "value": "3", "label": "工作语言" },
-      { "value": "100%", "label": "投入热情" }
+      { "value": "2", "label": "硕士学位" }
     ]
   },
   "skills": {
     "title": "技术栈",
     "groups": [
       { "name": "前端", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
-      { "name": "后端", "items": ["Node.js", "Express", "PostgreSQL", "REST API"] },
-      { "name": "工具与实践", "items": ["Git", "Docker", "Figma", "Vitest"] }
+      { "name": "后端", "items": ["Python", "FastAPI", "Node.js", "PostgreSQL"] },
+      { "name": "工具与实践", "items": ["Git", "Docker", "CI/CD", "Agile/Kanban"] },
+      { "name": "探索中", "items": ["AI Agent", "LLM 应用", "工具调用", "工作流编排"] }
     ]
   },
   "projects": {
@@ -69,30 +71,93 @@
     "title": "工作经历",
     "items": [
       {
-        "role": "全栈开发实习生",
-        "company": "某科技公司",
-        "period": "2025.06 – 2025.09",
-        "description": "参与公司内部管理后台的开发，负责前端页面搭建、接口联调与部分后端 API 设计。",
-        "tags": ["React", "Node.js", "MySQL"]
+        "role": "自由职业全栈开发者",
+        "company": "Auto-entrepreneur · 法国",
+        "period": "2025.07 – 至今",
+        "description": "以 auto-entrepreneur 身份独立承接 Web 开发项目，负责从需求沟通、架构设计到部署交付的全流程。",
+        "tags": []
       },
       {
-        "role": "自由开发者（兼职）",
-        "company": "独立接单",
-        "period": "2024.03 – 至今",
-        "description": "为本地小型企业搭建官网与在线预约系统，独立完成从需求沟通到部署上线的全流程。",
-        "tags": ["React", "Vercel", "PostgreSQL"]
+        "role": "全栈开发工程师",
+        "company": "Grenoble INP · Laboratoire G-SCOP",
+        "period": "2026.02 – 2026.07",
+        "url": "https://g-scop.grenoble-inp.fr",
+        "description": "从零设计并主导开发 HeurAIDEAS——面向人机界面（HMI）启发式评估的协作式 Web 应用，独立完成从架构设计到部署上线的端到端交付。",
+        "highlights": [
+          "使用 Python/FastAPI 异步后端与 React/TypeScript/Vite 前端，从零设计并开发 HeurAIDEAS 协作式 Web 应用，用于人机界面（HMI）的启发式评估。",
+          "基于 SQLAlchemy Async/Alembic 开发 REST API，并通过 WebSocket 实现实时同步与在线状态管理。",
+          "实现 JWT/OAuth2 认证与 RBAC 访问控制，保障用户与团队之间的数据隔离。",
+          "集成 S3 文件存储并以 Docker 容器化，将应用从云托管迁移至内部服务器；配置基于 Git 的持续部署（CD）至 Render 与 Netlify。",
+          "以 Agile/Kanban 方式组织开发：任务拆分、优先级管理与进度跟踪。"
+        ],
+        "links": [
+          { "label": "HeurAIDEAS · GitHub", "url": "https://github.com/DJOMIDO/heurAideas-proto-v1" }
+        ],
+        "tags": ["React", "TypeScript", "FastAPI", "Docker", "WebSockets"]
+      },
+      {
+        "role": "Web 开发工程师",
+        "company": "HAIKU · LegalTech 初创",
+        "period": "2024.06 – 2024.09",
+        "url": "https://www.haiku.fr",
+        "highlights": [
+          "参与 SaaS 应用从 Vue.js 到 React + TypeScript 的渐进式迁移。",
+          "开发模块化前端组件：仪表盘、用户认证与用户信息管理。",
+          "集成 API 动态展示用户数据，包括个人资料与最近活动。",
+          "在 Agile 环境中协作：冲刺计划、每日站会、Git 工作流，并与产品团队紧密配合。"
+        ],
+        "tags": ["React", "TypeScript", "Vue.js", "REST API"]
+      },
+      {
+        "role": "NLP 研究实习生",
+        "company": "Laboratoire LIDILEM · 格勒诺布尔大学",
+        "period": "2023.03 – 2023.08",
+        "url": "https://lidilem.univ-grenoble-alpes.fr/laboratoire",
+        "highlights": [
+          "在法语地理语言学语料库上微调 BERT 与 DistilBERT 模型。",
+          "对文本数据进行预处理、标注与结构化，用于 NER 模型训练。",
+          "使用 Transformers 训练并评估命名实体识别（NER）模型。",
+          "对比 BERT、DistilBERT 与 spaCy 在 NER 任务上的表现。"
+        ],
+        "tags": ["Python", "NLP", "Transformers", "spaCy"]
+      }
+    ]
+  },
+  "education": {
+    "title": "教育背景",
+    "items": [
+      {
+        "degree": "MIASHS 硕士 · 计算机×社会科学双技能方向",
+        "school": "格勒诺布尔大学（UGA）",
+        "period": "2023.09 – 2024.09",
+        "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs-IDIVLQ8C/parcours-double-competence-informatique-et-sciences-sociales-IJLAENY0.html",
+        "description": "数学与计算机在人文社会科学中的应用；双技能方向覆盖软件开发、数据分析与社会科学方法。"
+      },
+      {
+        "degree": "语言科学硕士 · 自然语言处理方向",
+        "school": "格勒诺布尔大学（UGA）",
+        "period": "2021.09 – 2023.09",
+        "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-sciences-du-langage-IBC7OSQ4/parcours-industries-de-la-langue-IBC7YS7U.html",
+        "description": "语言产业方向（TAL/NLP）：计算语言学、文本挖掘与机器学习在语言数据上的应用。"
+      },
+      {
+        "degree": "语言科学学士",
+        "school": "格勒诺布尔大学（UGA）",
+        "period": "2020.09 – 2021.06",
+        "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/licence-XA/licence-sciences-du-langage-IBBXV3CB.html",
+        "description": "语言学基础：语音学、句法学、语义学与社会语言学。"
       }
     ]
   },
   "contact": {
     "title": "联系我",
-    "lead": "有实习机会、想聊聊项目合作，或者只是想打个招呼？随时给我发邮件。",
-    "email": "hello@example.com",
+    "lead": "有新的机会、想聊聊项目合作，或者只是想打个招呼？随时给我发邮件。",
+    "email": "ma.xiao@myyahoo.com",
     "emailLabel": "邮箱",
     "linksLabel": "其他渠道",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/your-username" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username" },
+      { "label": "GitHub", "url": "https://github.com/DJOMIDO" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/xiao-ma-dmx" },
       { "label": "简历", "url": "#" }
     ]
   },

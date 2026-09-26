@@ -15,7 +15,7 @@ export function Skills() {
   return (
     <section id="skills" className="mx-auto max-w-5xl px-6 py-24">
       <SectionHeading index="02." title={t('skills.title')} />
-      <div className="grid gap-10 md:grid-cols-3">
+      <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {groups.map((group, i) => (
           <Reveal key={group.name} delay={i * 0.08} className="flex flex-col gap-4">
             <h3 className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
