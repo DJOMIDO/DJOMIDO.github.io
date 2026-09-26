@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "about": "关于",
+    "skills": "技能",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系"
+  },
+  "hero": {
+    "kicker": "你好，我是",
+    "name": "Xiao Ma",
+    "role": "初级全栈开发工程师",
+    "tagline": "我热衷于把想法变成真正可用的产品——从界面到 API，用简洁、可靠的代码端到端实现。",
+    "ctaProjects": "查看项目",
+    "ctaContact": "联系我",
+    "availability": "正在寻找实习与初级岗位机会",
+    "location": "中国 · 可远程协作",
+    "scroll": "向下滚动"
+  },
+  "about": {
+    "title": "关于我",
+    "paragraphs": [
+      "我是一名初级全栈开发者，主攻 React 生态与 Node.js 后端。从像素级还原的界面到设计良好的 API，我喜欢参与产品构建的每一个环节。",
+      "我习惯先理解问题再动手写代码，重视可维护性与清晰的沟通。目前正在寻找能让我持续成长、承担真实责任的团队机会。"
+    ],
+    "stats": [
+      { "value": "3+", "label": "个人项目" },
+      { "value": "3", "label": "工作语言" },
+      { "value": "100%", "label": "投入热情" }
+    ]
+  },
+  "skills": {
+    "title": "技术栈",
+    "groups": [
+      { "name": "前端", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
+      { "name": "后端", "items": ["Node.js", "Express", "PostgreSQL", "REST API"] },
+      { "name": "工具与实践", "items": ["Git", "Docker", "Figma", "Vitest"] }
+    ]
+  },
+  "projects": {
+    "title": "精选项目",
+    "items": [
+      {
+        "name": "ShopStack",
+        "description": "全栈电商演示：商品浏览、购物车、订单管理与 JWT 鉴权，前后端分离部署。",
+        "tags": ["React", "Node.js", "PostgreSQL", "JWT"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "TaskFlow",
+        "description": "支持拖拽看板的任务管理应用：创建项目、分配任务、设置截止日期并追踪进度。",
+        "tags": ["React", "TypeScript", "Tailwind CSS", "dnd-kit"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "DataBoard",
+        "description": "将公开 API 数据可视化的仪表盘，支持多图表切换、数据缓存与暗色模式。",
+        "tags": ["React", "Recharts", "REST API", "Vite"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      }
+    ],
+    "demoLabel": "在线演示",
+    "repoLabel": "源代码"
+  },
+  "experience": {
+    "title": "工作经历",
+    "items": [
+      {
+        "role": "全栈开发实习生",
+        "company": "某科技公司",
+        "period": "2025.06 – 2025.09",
+        "description": "参与公司内部管理后台的开发，负责前端页面搭建、接口联调与部分后端 API 设计。",
+        "tags": ["React", "Node.js", "MySQL"]
+      },
+      {
+        "role": "自由开发者（兼职）",
+        "company": "独立接单",
+        "period": "2024.03 – 至今",
+        "description": "为本地小型企业搭建官网与在线预约系统，独立完成从需求沟通到部署上线的全流程。",
+        "tags": ["React", "Vercel", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系我",
+    "lead": "有实习机会、想聊聊项目合作，或者只是想打个招呼？随时给我发邮件。",
+    "email": "hello@example.com",
+    "emailLabel": "邮箱",
+    "linksLabel": "其他渠道",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/your-username" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username" },
+      { "label": "简历", "url": "#" }
+    ]
+  },
+  "footer": {
+    "builtWith": "用 React 和一大堆咖啡构建",
+    "rights": "保留所有权利"
+  },
+  "theme": {
+    "toLight": "切换到亮色模式",
+    "toDark": "切换到暗色模式"
+  },
+  "language": {
+    "label": "切换语言",
+    "zh": "中文",
+    "en": "English",
+    "fr": "Français"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Hi, I'm",
+    "name": "Xiao Ma",
+    "role": "Junior Full-Stack Developer",
+    "tagline": "I love turning ideas into products people can actually use — with simple, reliable code, end to end.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "availability": "Open to internships & junior roles",
+    "location": "China · Remote-friendly",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "title": "About me",
+    "paragraphs": [
+      "I'm a junior full-stack developer focused on the React ecosystem and Node.js backends. From pixel-perfect interfaces to well-designed APIs, I enjoy every step of building a product.",
+      "I like to understand the problem before writing code, and I care about maintainability and clear communication. I'm now looking for a team where I can keep growing and take real ownership."
+    ],
+    "stats": [
+      { "value": "3+", "label": "Personal projects" },
+      { "value": "3", "label": "Working languages" },
+      { "value": "100%", "label": "Dedication" }
+    ]
+  },
+  "skills": {
+    "title": "Tech stack",
+    "groups": [
+      { "name": "Frontend", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
+      { "name": "Backend", "items": ["Node.js", "Express", "PostgreSQL", "REST API"] },
+      { "name": "Tools & practices", "items": ["Git", "Docker", "Figma", "Vitest"] }
+    ]
+  },
+  "projects": {
+    "title": "Selected projects",
+    "items": [
+      {
+        "name": "ShopStack",
+        "description": "A full-stack e-commerce demo: product catalog, shopping cart, order management and JWT auth, with the frontend and backend deployed separately.",
+        "tags": ["React", "Node.js", "PostgreSQL", "JWT"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "TaskFlow",
+        "description": "A task management app with a drag-and-drop kanban board: create projects, assign tasks, set due dates and track progress.",
+        "tags": ["React", "TypeScript", "Tailwind CSS", "dnd-kit"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "DataBoard",
+        "description": "A dashboard that visualizes public API data, with switchable charts, response caching and a dark mode.",
+        "tags": ["React", "Recharts", "REST API", "Vite"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      }
+    ],
+    "demoLabel": "Live demo",
+    "repoLabel": "Source code"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Full-Stack Developer Intern",
+        "company": "Tech Company",
+        "period": "Jun 2025 – Sep 2025",
+        "description": "Built pages for an internal admin dashboard, integrated APIs and designed several backend endpoints.",
+        "tags": ["React", "Node.js", "MySQL"]
+      },
+      {
+        "role": "Freelance Developer (part-time)",
+        "company": "Self-employed",
+        "period": "Mar 2024 – Present",
+        "description": "Built marketing sites and an online booking system for local small businesses — from requirements gathering to deployment.",
+        "tags": ["React", "Vercel", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in touch",
+    "lead": "Have an internship, a project in mind, or just want to say hi? Feel free to email me.",
+    "email": "hello@example.com",
+    "emailLabel": "Email",
+    "linksLabel": "Elsewhere",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/your-username" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username" },
+      { "label": "Résumé", "url": "#" }
+    ]
+  },
+  "footer": {
+    "builtWith": "Built with React and an unreasonable amount of coffee",
+    "rights": "All rights reserved"
+  },
+  "theme": {
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "language": {
+    "label": "Switch language",
+    "zh": "中文",
+    "en": "English",
+    "fr": "Français"
+  }
+}

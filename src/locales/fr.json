@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experience": "Parcours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Bonjour, je suis",
+    "name": "Xiao Ma",
+    "role": "Développeur full-stack junior",
+    "tagline": "J'aime transformer les idées en produits vraiment utilisables — avec du code simple et fiable, de l'interface à l'API.",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "availability": "Ouvert aux stages et aux postes junior",
+    "location": "Chine · Ouvert au télétravail",
+    "scroll": "Faire défiler"
+  },
+  "about": {
+    "title": "À propos",
+    "paragraphs": [
+      "Je suis développeur full-stack junior, spécialisé dans l'écosystème React et dans le backend Node.js. De l'interface pixel-perfect à l'API bien conçue, j'aime participer à chaque étape de la construction d'un produit.",
+      "Je cherche d'abord à comprendre le problème avant d'écrire du code, avec un souci constant de maintenabilité et de communication claire. Je recherche une équipe où je pourrai progresser et prendre de vraies responsabilités."
+    ],
+    "stats": [
+      { "value": "3+", "label": "Projets personnels" },
+      { "value": "3", "label": "Langues de travail" },
+      { "value": "100 %", "label": "De passion" }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "groups": [
+      { "name": "Front-end", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
+      { "name": "Back-end", "items": ["Node.js", "Express", "PostgreSQL", "REST API"] },
+      { "name": "Outils & pratiques", "items": ["Git", "Docker", "Figma", "Vitest"] }
+    ]
+  },
+  "projects": {
+    "title": "Projets sélectionnés",
+    "items": [
+      {
+        "name": "ShopStack",
+        "description": "Démo e-commerce full-stack : catalogue, panier, gestion des commandes et authentification JWT, front et back déployés séparément.",
+        "tags": ["React", "Node.js", "PostgreSQL", "JWT"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "TaskFlow",
+        "description": "Application de gestion de tâches avec kanban en glisser-déposer : projets, assignations, échéances et suivi d'avancement.",
+        "tags": ["React", "TypeScript", "Tailwind CSS", "dnd-kit"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "name": "DataBoard",
+        "description": "Tableau de bord qui visualise les données d'API publiques : plusieurs graphiques interchangeables, cache et mode sombre.",
+        "tags": ["React", "Recharts", "REST API", "Vite"],
+        "demoUrl": "#",
+        "repoUrl": "#"
+      }
+    ],
+    "demoLabel": "Démo en ligne",
+    "repoLabel": "Code source"
+  },
+  "experience": {
+    "title": "Parcours",
+    "items": [
+      {
+        "role": "Stagiaire développeur full-stack",
+        "company": "Entreprise tech",
+        "period": "juin 2025 – sept. 2025",
+        "description": "Développement d'un back-office interne : pages frontend, intégration d'API et conception de plusieurs routes backend.",
+        "tags": ["React", "Node.js", "MySQL"]
+      },
+      {
+        "role": "Développeur freelance (à temps partiel)",
+        "company": "Indépendant",
+        "period": "mars 2024 – aujourd'hui",
+        "description": "Sites vitrines et système de réservation en ligne pour des PME locales, de la prise de besoin jusqu'au déploiement.",
+        "tags": ["React", "Vercel", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Me contacter",
+    "lead": "Un stage, une collaboration ou simplement envie de discuter tech ? Écrivez-moi.",
+    "email": "hello@example.com",
+    "emailLabel": "E-mail",
+    "linksLabel": "Autres canaux",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/your-username" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username" },
+      { "label": "CV", "url": "#" }
+    ]
+  },
+  "footer": {
+    "builtWith": "Conçu avec React et beaucoup de café",
+    "rights": "Tous droits réservés"
+  },
+  "theme": {
+    "toLight": "Activer le mode clair",
+    "toDark": "Activer le mode sombre"
+  },
+  "language": {
+    "label": "Changer de langue",
+    "zh": "中文",
+    "en": "English",
+    "fr": "Français"
+  }
+}
