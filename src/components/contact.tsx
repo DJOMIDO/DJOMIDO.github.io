@@ -42,6 +42,8 @@ export function Contact() {
               <a
                 key={link.label}
                 href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-primary"
               >
                 <Icon />

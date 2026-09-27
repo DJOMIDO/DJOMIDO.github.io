@@ -173,8 +173,7 @@
     "linksLabel": "其他渠道",
     "links": [
       { "label": "GitHub", "url": "https://github.com/DJOMIDO" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/xiao-ma-dmx" },
-      { "label": "简历", "url": "#" }
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/xiao-ma-dmx" }
     ]
   },
   "footer": {
