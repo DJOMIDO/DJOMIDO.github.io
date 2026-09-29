@@ -53,6 +53,13 @@
         "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
+        "name": "Nestery",
+        "description": "个人效率工具集合：任务看板、笔记（纯文本 / 富文本 / Markdown）与日历（含节假日、ICS 订阅）集中在同一工作区，支持邮箱与 GitHub 登录、明暗主题。",
+        "tags": ["Next.js", "TypeScript", "shadcn/ui", "Drizzle ORM", "PostgreSQL"],
+        "demoUrl": "https://nestery.vercel.app",
+        "repoUrl": "https://github.com/DJOMIDO/nestery"
+      },
+      {
         "name": "Travel Tracker",
         "description": "旅行记录应用：登录后记录航班与火车行程，在交互地图上可视化航线，通过仪表盘图表回顾旅程；支持 CSV 批量导入与暗色模式。",
         "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],
@@ -60,18 +67,18 @@
         "repoUrl": "https://github.com/DJOMIDO/noname-app"
       },
       {
+        "name": "ViteMétéo",
+        "description": "轻量天气预报应用，全新明暗双主题界面：地理编码搜索并可管理多座城市，查看实时天气、24 小时逐时预报与 10 日预报，支持摄氏/华氏切换、浏览器定位与中/英/法三语，数据来自免密钥的 Open-Meteo。",
+        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Open-Meteo"],
+        "demoUrl": "https://vitemeteo.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
+      },
+      {
         "name": "NLP Jobs",
         "description": "专注 NLP 领域的职位搜索平台：分页职位列表、多条件筛选（国家、城市、关键词、急招）与职位详情页，前端部署于 Netlify，API 基于 Netlify Functions。",
         "tags": ["React", "Express.js", "MongoDB", "Netlify", "Chakra UI"],
         "demoUrl": "https://nlpjobs.netlify.app",
         "repoUrl": "https://github.com/DJOMIDO/nlpjobs"
-      },
-      {
-        "name": "ViteMétéo",
-        "description": "轻量天气预报应用：搜索城市即可查看实时天气、日出日落、可横向滚动的逐小时预报与 3 天预报，数据来自 WeatherAPI。",
-        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
-        "demoUrl": "https://vitemeteo.netlify.app",
-        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
       },
       {
         "name": "CartoStages IDéaL",

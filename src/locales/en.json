@@ -53,6 +53,13 @@
         "repoUrl": "https://github.com/DJOMIDO/heurAideas-proto-v1"
       },
       {
+        "name": "Nestery",
+        "description": "A personal productivity suite: kanban tasks, notes in plain text, rich text or Markdown, and a calendar with public holidays and ICS subscriptions — all in one workspace with email/GitHub sign-in and light/dark themes.",
+        "tags": ["Next.js", "TypeScript", "shadcn/ui", "Drizzle ORM", "PostgreSQL"],
+        "demoUrl": "https://nestery.vercel.app",
+        "repoUrl": "https://github.com/DJOMIDO/nestery"
+      },
+      {
         "name": "Travel Tracker",
         "description": "A travel journaling app: log flights and train journeys, visualize routes on an interactive map, and review trips through a stats dashboard with charts — featuring CSV import and dark mode.",
         "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],
@@ -60,18 +67,18 @@
         "repoUrl": "https://github.com/DJOMIDO/noname-app"
       },
       {
+        "name": "ViteMétéo",
+        "description": "A lightweight weather app with a redesigned light/dark interface: geocoded city search with multi-city management, current conditions, a 24-hour hourly forecast and a 10-day outlook, Celsius/Fahrenheit toggle, browser geolocation and a French/English/Chinese UI — powered by the keyless Open-Meteo API.",
+        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Open-Meteo"],
+        "demoUrl": "https://vitemeteo.netlify.app",
+        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
+      },
+      {
         "name": "NLP Jobs",
         "description": "A job board dedicated to NLP positions: paginated listings, multi-criteria filters (country, city, keywords, urgent) and detailed job pages, with the frontend on Netlify and the APIs on Netlify Functions.",
         "tags": ["React", "Express.js", "MongoDB", "Netlify", "Chakra UI"],
         "demoUrl": "https://nlpjobs.netlify.app",
         "repoUrl": "https://github.com/DJOMIDO/nlpjobs"
-      },
-      {
-        "name": "ViteMétéo",
-        "description": "A lightweight weather app: search a city to see current conditions, sunrise and sunset, a scrollable hourly forecast and a 3-day outlook, powered by the WeatherAPI.",
-        "tags": ["Vue 3", "Vite", "Tailwind CSS", "Weather API"],
-        "demoUrl": "https://vitemeteo.netlify.app",
-        "repoUrl": "https://github.com/DJOMIDO/vitemeteo"
       },
       {
         "name": "CartoStages IDéaL",
