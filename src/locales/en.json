@@ -60,6 +60,12 @@
         "repoUrl": "https://github.com/DJOMIDO/nestery"
       },
       {
+        "name": "EtuCuisto",
+        "description": "A recipe assistant for student kitchens: feed your pantry by typing ingredients or uploading a photo — AI recognizes, categorizes and flags what to use soon — then get recipes matched to your pantry, cookware, budget and dietary restrictions, with favorites and a cooked-again history to cut food waste.",
+        "tags": ["Next.js", "TypeScript", "Drizzle ORM", "Neon Postgres", "AI Vision"],
+        "demoUrl": "https://etucuisto.netlify.app"
+      },
+      {
         "name": "Travel Tracker",
         "description": "A travel journaling app: log flights and train journeys, visualize routes on an interactive map, and review trips through a stats dashboard with charts — featuring CSV import and dark mode.",
         "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],

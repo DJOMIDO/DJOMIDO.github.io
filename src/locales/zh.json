@@ -60,6 +60,12 @@
         "repoUrl": "https://github.com/DJOMIDO/nestery"
       },
       {
+        "name": "EtuCuisto",
+        "description": "面向学生群体的食谱助手：手动输入或上传照片即可录入“冰箱”食材，由 AI 识别、分类并标注“尽快使用”；再结合你的厨具、预算与饮食禁忌推荐食谱，支持收藏和标记已做过，帮你找到做饭灵感、减少食物浪费。",
+        "tags": ["Next.js", "TypeScript", "Drizzle ORM", "Neon Postgres", "AI Vision"],
+        "demoUrl": "https://etucuisto.netlify.app"
+      },
+      {
         "name": "Travel Tracker",
         "description": "旅行记录应用：登录后记录航班与火车行程，在交互地图上可视化航线，通过仪表盘图表回顾旅程；支持 CSV 批量导入与暗色模式。",
         "tags": ["Vue 3", "TypeScript", "Supabase", "Leaflet", "shadcn-vue"],
